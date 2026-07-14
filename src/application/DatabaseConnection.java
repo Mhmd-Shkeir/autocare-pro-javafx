@@ -5,7 +5,8 @@
 	import java.sql.SQLException;
 	
 	public class DatabaseConnection {
-	    private static final String URL = "jdbc:sqlserver://localhost:1433;databaseName=Car_Maintenance;user=User;password=123;trustServerCertificate=true";
+		private static final String URL =
+			"jdbc:sqlserver://localhost:1433;databaseName=Car_Maintenance;user=<YOUR_USERNAME>;password=<YOUR_PASSWORD>;trustServerCertificate=true";	    public static Connection connect() {
 	
 	    public static Connection connect() {
 	        Connection conn = null;
